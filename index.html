@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>PelículasNM</title>
+  </head>
+
+  <body>
+  
+      <!-- ENCABEZADO -->
+
+    <header class="container-fluid bg-secondary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-8">Más que Películas.NM</p> <!--mb es margin bottom, padding y el tamñao de la letra es fs-->
+    </header>
+
+    <nav  class="navbar navbar-expand-lg navbar-light p-4"  id="menu"> <!--navbar-expand-lg significa que se va a colapsar si se hace más pequeño de lo que debería la pantalla, navbar-light es el estilo -->
+        <div class="container">
+
+          <a class="navbar-brand" href="#">
+              <span class="fs-6 text-secondary fw-bold">PelículasNM</span> <!--fw-bold significa en negrita-->
+          </a>
+
+      <!--NAVBAR-->
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#sobremi">Sobre Mí</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog Películas</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-contacto">Contacto</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </nav>  
+     
+    
+      <!--INICIO-->
+
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+
+        <img src="./img/minions.jpg" width="500" height="300">
+
+          <br>
+
+        <h1 class="p-3 fs-2">Una Película es <strong>MÁS que una Película</strong></h1>
+
+          <p class="p-3  fs-4">
+              Muchas veces en nuestra vida hemos visto películas en el cine, en casa, con un amigo, en familia, y ya está. Pero otras veces ha sido más que eso, siempre hay una película que te emociona, que deseas que no acabe nunca y cuando eso sucede la vuelves a ver al poco tiempo con la ilusión que lo hiciste la primera vez.    
+          </p>
+
+    </section>
+
+
+
+       <!--SOBRE MÍ-->
+
+
+<section>
+  <div class="bg-light">
+    <div class="container w-50 m-auto text-center" id="sobremi">
+        <h1 class="mb-5 fs-2" id="titusob">Sobre Mi</h1>
+        
+    </div>
+
+    <div class="mt-5 text-center">
+      <p class="fs-4" id="sobtex" >
+        
+         Desde pequeña me han
+         gustado mucho las películas,<br>
+         por eso en esta página
+         hablaré sobre mis películas<br>
+         favoritas de la infancia. Esas que hasta día de hoy veo y <br>
+         tengo un bonito recuerdo de ellas
+        </p>
+         <img id="img-sobremi" src="./img/sobremi.jpg" alt="sobremi" >
+        
+      
+    </div>
+  </div>
+
+    
+
+</section>
+
+
+  <!--BLOG PELICULAS-->
+    
+    <section class="w-100" bg-success id="blog">
+
+      <div class="container w-50 m-auto text-center" id="blogpel">
+        <h1 class="mb-5 fs-2" id="blogpel">Blog de Películas</h1>
+        
+    </div>
+      
+      <div class="row w-75 mx-auto" id="blog-fila-1">
+        
+
+          <div class="col-lg-4 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+
+              <img src="./img/hercules.jfif" alt="hercules" width="180" height="160">
+
+              <div>
+                  <h3 class="fs-5 mt-4 px-4 pb-1">Hércules</h3>
+                  <p class="px-4">Una película que habla sobre Hércules, un chico aparentemente normal hasta que se entera de que es hijo de Zeus y entrena para ir al olimpo con él.</p>
+              </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+
+              <img src="./img/tarzan.jpeg" alt="tarzan" width="180" height="160">
+
+              <div>
+                  <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Tarzán</h3>
+                  <p class="px-4">Un hombre educado por monos conoce a una chica y poco a poco aprende a comunicarse con ella y ve como es la vida fuera de la isla donde reside.</p>
+              </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+
+            <img src="./img/ellibrodelavida.png" alt="ellibrodelavida" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">El Libro de la Vida</h3>
+                <p class="px-4">Donde Manolo y Joaquín luchan por el amor de María, sin saber que los dioses de la tierra de los muertos y la tierra de los olvidados han apostado por el chico ganador para repartirse de nuevo los reinos.</p>
+            </div>
+        </div> 
+
+      </div>
+
+    </section>
+
+
+
+                 <!-- SECCION CONTACTOS-->
+
+
+<section id="seccion-contacto" class="border-bottom border-secondary border-2">
+  <div id="bg-contactos">
+
+        <form action="/action_page.php">
+
+          <fieldset>
+
+            <legend><strong>Contacto</strong></legend>
+
+            Nombre* <input type="text" name="nombre" required size="40">
+            Apellidos <input type="text" name="firstname" placeholder="Los dos apellidos" size="30"><br>
+            Email* <input type="text" name="nombre" required size="20">
+            Dirección <input type="text" name="firstname" placeholder="Calle, Nº, Ciudad, Provincia" size="100"> <br>
+            Sugerencias <br>
+            <textarea name="message" rows="5" cols="170">
+            </textarea><br>
+              Teléfono <input type="number" name="telefono" size="20"><br>
+              <br>
+              <input id="boton1" type="submit" value="Enviar"> <br>
+              <br>
+
+          </fieldset>
+
+        </form>
+
+       <h5>Mapas</h5> 
+
+            <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.977203945975!2d-3.633442484289576!3d38.09419440148983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6e9bd065a783ed%3A0x2d4b0fd6aae7f47e!2sEscuela%20Estech!5e0!3m2!1ses!2ses!4v1674728553813!5m2!1ses!2ses" target="mapa"> Linares </a>
+
+            <br>
+
+            <a href=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.060750685909!2d-3.7898263!3d37.7651737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6dd773c3f8d975%3A0x86b8a078a411759d!2sCatedral%20de%20Ja%C3%A9n!5e0!3m2!1ses!2ses!4v1678583470444!5m2!1ses!2ses" target="mapa"> Jaén </a>
+
+  </div>
+
+                        <!--FOOTER-->
+
+
+<footer class="w-100  d-flex  align-items-left justify-content-left flex-wrap">
+
+  <div class="mt-5 text-center">
+
+
+    <p class="fs-6" id="sobtex" >
+       <img id="img-redes" src="./img/arroba.png" alt="redes" >
+       nerea.molino@escuelaestech.es <br>
+       <img id="img-redes" src="./img/twitter.png.png" alt="redes" >
+       nereamor16
+      </p>
+       
+  </div>
+ 
+</footer>
+
+    
+</html>
